@@ -28,7 +28,7 @@ def start():
         # print(res)
 
         if 'message' in checkin.text:
-            print(“===result===”)
+            print('===result===')
             print(message)
             mess = checkin.json()['message']
             if mess == '\u6ca1\u6709\u6743\u9650':
