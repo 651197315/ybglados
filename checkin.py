@@ -14,11 +14,11 @@ def start():
     referer = "https://glados.rocks/console/checkin"
     useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
     payload={
-        'token': 'glados_network'
+        'token': 'glados.network'
     }
     
     dict = {}
-    dict['key1'] = "first_cookie"
+    dict['key1'] = "_ga=GA1.2.353584354.1632717611; koa:sess=eyJ1c2VySWQiOjEwMTk2NCwiX2V4cGlyZSI6MTY3MjY1MjcyOTc2NCwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=1EvQCtVBLLEd9YSb8B0FPrsqzJY; _gid=GA1.2.2121931798.1655458963; _gat_gtag_UA_104464600_2=1"
     #dict['key2'] = "second_cookie"
     #dict['key3'] = "third_cookie"
     
